@@ -6,7 +6,6 @@
 ![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
 ![Header-only](https://img.shields.io/badge/header--only-yes-brightgreen.svg)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Every step of a neural network — forward propagation, backpropagation, weight initialisation, loss functions and optimizers — is implemented explicitly in a few hundred lines with **no external libraries**, no BLAS, and no code generation. The result trains real models: **97.69% test accuracy on MNIST** in about a minute on a single CPU thread.
 
