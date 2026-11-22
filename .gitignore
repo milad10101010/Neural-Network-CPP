@@ -1,0 +1,24 @@
+# Build output
+build/
+cmake-build-*/
+out/
+
+# Data and trained models
+data/
+*.idx
+*-ubyte
+*-ubyte.gz
+mnist_model.txt
+test_model_roundtrip.txt
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
